@@ -227,6 +227,8 @@
     margin: 120px 140px 120px 100px;
     text-align: center;
 }
+
+
 .third-heading{
     color: #070211;
     font-family: Inter;
@@ -302,11 +304,35 @@
     font-weight: 400;
     line-height: 32px; /* 160% */
     }
-.fourth-part-images img{
+.fourth-part-images > img{
     width: 400px;
     height: 400px;
     border-radius: 16px;
     padding: 15px;
+}
+.bag:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.heel:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.purse:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.shoe:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.glasses:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.ring:hover{
+    opacity: 0.4;
+    cursor: pointer;
 }
 .fifth{
     border-radius: 16px;
@@ -397,8 +423,9 @@ footer{
 }
 hr{
     margin:50px;
-
-    background: rgba(255, 255, 255, 0.15);
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(70, 82, 90), rgba(0, 0, 0, 0))
 }
 body{
     max-width:1320px;
