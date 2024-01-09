@@ -223,7 +223,7 @@
     align-items: center;
 }
 .third{
-    width: 1320px;
+    max-width: 1320px;
     margin: 120px 140px 120px 100px;
     text-align: center;
 }
@@ -272,4 +272,135 @@
 }
 .discount-image{
     padding-top: 120px;
+}
+.fourth{
+    width: 1320px;
+    margin: 120px 140px 140px 100px;
+    justify-content:space-around ;
+
+}
+.fourth-heading{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+    
+}
+.fourth-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+.fourth-part-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    }
+.fourth-part-images img{
+    width: 400px;
+    height: 400px;
+    border-radius: 16px;
+    padding: 15px;
+}
+.fifth{
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    background-position-x: center;
+    margin: 120px 140px 120px 100px;
+    max-width: 1320px;
+    height: 580px;
+    text-align: center;
+    padding: 100px;
+}
+.fifth-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+    }
+.fifth-part-des{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    
+}
+label{
+    display: flex;
+    text-align: center;
+    padding-left: 100px;
+    
+}
+input{
+    border: none;
+    padding:25px;
+    width:400px;
+    border-radius: 50px 0px 0px 50px;
+    color: rgba(7, 2, 17, 0.3);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+}
+.sub{
+    border:none;
+    padding:25px;
+    background: #F00;
+    color: white;
+    width:250px;
+    border-radius: 0px 50px 50px 0px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+footer{
+    background: #070211;
+    color: white;
+    height: 600px;
+    padding: 400px 100px;
+    width:1400px;
+
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sec-row{
+    text-align: center;
+}
+.sec-row img{
+    padding:20px;
+    
+}
+.last-row{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    margin:50px;
+
+    background: rgba(255, 255, 255, 0.15);
+}
+body{
+    max-width:1320px;
+
 }
