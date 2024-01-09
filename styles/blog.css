@@ -131,7 +131,7 @@
     margin: 32px;   
    
 }
-main{
+.first{
     width: 1320px;
     height: 482px;
     margin: 120px 140px 120px 100px;
@@ -175,4 +175,85 @@ main{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    }
+}
+.head-one{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;  
+
+ }
+.col-one-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;  
+ }
+ .col-one-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px; 
+    font-weight: 400;  
+ }
+ .col-two> img{
+    height: 350px;
+    width: 350px;
+    border-radius: 350px;
+    border: 15px solid #F00;
+    padding: 40px;  
+ }
+ .head-two{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;   
+ }
+ .col-three-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.second{
+    width: 1320px;
+    height: 482px;
+    margin: 70px 140px 0px 100px;
+    display: flex;
+    gap:80px;
+    align-items: center;
+}
+.third{
+    width: 1320px;
+    margin: 120px 140px 120px 100px;
+    text-align: center;
+}
+.third-heading{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.third-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+ }
+.holiday{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+.third-part-des{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+}
